@@ -1,0 +1,40 @@
+HOW TO RUN THE EXPERIMENT (about 30-40 minutes, most of it reboots)
+
+Before every measurement:
+- close all programs (browser, Discord, Steam, games);
+- do not touch the computer while it is measuring;
+- after the computer starts, wait 2-3 minutes so that Windows settles down.
+One measurement takes about 5 minutes. At the end the window shows "Done": press any key.
+
+STEP 1. Measure WITH mitigations.
+  Double-click 1_measure_ON.bat
+
+STEP 2. Turn mitigations off.
+  Right-click 2_mitigations_OFF_admin.bat and choose "Run as administrator".
+  Then REBOOT the computer.
+
+STEP 3. Measure WITHOUT mitigations.
+  Double-click 3_measure_OFF.bat
+
+STEP 4. Restore mitigations (REQUIRED).
+  Right-click 4_mitigations_RESTORE_admin.bat and choose "Run as administrator".
+  Then REBOOT the computer.
+
+STEP 5. One more measurement WITH mitigations (noise check).
+  Double-click 1_measure_ON.bat again.
+
+STEP 6. Compute the results.
+  Double-click 5_analyze.bat
+  The results appear in the results folder: the table summary.md and the chart slowdown.svg.
+
+If the window says "STOP: you said --condition ...", you forgot to reboot after
+step 2 or step 4. Nothing was recorded: reboot and run the step again.
+
+If a measurement was interrupted (window closed, power cut), simply run that step again.
+The analysis skips the interrupted run by itself and prints SKIPPED.
+
+After step 3 the mitigations are off and the computer is less protected. Do not browse
+the internet in this state: go straight to step 4. The window after step 3 and the
+analysis (step 6) will remind you if the mitigations are still off.
+
+Do not delete files from the results folder: they are the raw data published with the study.
