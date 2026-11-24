@@ -1,0 +1,119 @@
+{
+  "session": "off_20261124_165702",
+  "condition": "off",
+  "size_profile": "full",
+  "sizes": {
+    "files": 3000,
+    "stats": 150000,
+    "zip_files": 6000,
+    "spawns": 200,
+    "pingpong": 60000,
+    "cpu_loop": 6000000,
+    "sha_mb": 64,
+    "sha_passes": 8
+  },
+  "rounds": 15,
+  "warmup_rounds": 2,
+  "order_seed": 2026,
+  "forced": false,
+  "started": "2026-11-24T16:57:02",
+  "mitigations": {
+    "overall": "off",
+    "meltdown_kva_shadow_active": false,
+    "cpu_needs_meltdown_fix": false,
+    "spectre_v2_mitigation_active": false,
+    "kva_raw": "0x3020",
+    "kva_query_status": "0x0",
+    "kva_flags": {
+      "kva_shadow_enabled": false,
+      "kva_shadow_user_global": false,
+      "kva_shadow_pcid": false,
+      "kva_shadow_invpcid": false,
+      "kva_shadow_required": false,
+      "kva_shadow_required_available": true
+    },
+    "spec_raw": "0x2d8113fa",
+    "spec_query_status": "0x0",
+    "spec_flags": {
+      "bpb_enabled": false,
+      "bpb_disabled_system_policy": true,
+      "bpb_disabled_no_hardware_support": false,
+      "spec_ctrl_enumerated": true,
+      "pred_cmd_enumerated": true,
+      "ibrs_present": true,
+      "stibp_present": true,
+      "smep_present": true,
+      "ssbd_available": true,
+      "ssbd_supported": true,
+      "ssbd_system_wide": false,
+      "ssbd_required": true,
+      "retpoline_enabled": false,
+      "import_optimization_enabled": false,
+      "enhanced_ibrs": true,
+      "mds_hardware_protected": true,
+      "mb_clear_enabled": false
+    },
+    "registry": {
+      "FeatureSettingsOverride": 3,
+      "FeatureSettingsOverrideMask": 3,
+      "FeatureSettings": 0
+    }
+  },
+  "system": {
+    "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.18363-SP0",
+    "windows_build": "10.0.18363",
+    "cpu": "Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz",
+    "cpu_microcode_revision": "0xde",
+    "logical_cpus": 6,
+    "ram_gb": "15,9",
+    "power_plan": "GUID \u0441\u0445\u0435\u043c\u044b \u043f\u0438\u0442\u0430\u043d\u0438\u044f: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (\u0412\u044b\u0441\u043e\u043a\u0430\u044f \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c)",
+    "work_dir": "C:\\Users\\Qbox\\AppData\\Local\\Temp\\spectre_bench_work\\off_20261124_165702",
+    "work_disk": "KINGSTON SA400S37240G | SATA",
+    "uptime_minutes": "1,4",
+    "defender_realtime": "True"
+  },
+  "finished": "2026-11-24T17:01:32",
+  "mitigations_after": {
+    "overall": "off",
+    "meltdown_kva_shadow_active": false,
+    "cpu_needs_meltdown_fix": false,
+    "spectre_v2_mitigation_active": false,
+    "kva_raw": "0x3020",
+    "kva_query_status": "0x0",
+    "kva_flags": {
+      "kva_shadow_enabled": false,
+      "kva_shadow_user_global": false,
+      "kva_shadow_pcid": false,
+      "kva_shadow_invpcid": false,
+      "kva_shadow_required": false,
+      "kva_shadow_required_available": true
+    },
+    "spec_raw": "0x2d8113fa",
+    "spec_query_status": "0x0",
+    "spec_flags": {
+      "bpb_enabled": false,
+      "bpb_disabled_system_policy": true,
+      "bpb_disabled_no_hardware_support": false,
+      "spec_ctrl_enumerated": true,
+      "pred_cmd_enumerated": true,
+      "ibrs_present": true,
+      "stibp_present": true,
+      "smep_present": true,
+      "ssbd_available": true,
+      "ssbd_supported": true,
+      "ssbd_system_wide": false,
+      "ssbd_required": true,
+      "retpoline_enabled": false,
+      "import_optimization_enabled": false,
+      "enhanced_ibrs": true,
+      "mds_hardware_protected": true,
+      "mb_clear_enabled": false
+    },
+    "registry": {
+      "FeatureSettingsOverride": 3,
+      "FeatureSettingsOverrideMask": 3,
+      "FeatureSettings": 0
+    }
+  }
+}

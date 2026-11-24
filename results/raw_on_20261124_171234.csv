@@ -1,0 +1,8 @@
+session,condition,round,warmup,position,workload,group,seconds,operations,us_per_op,timestamp
+on_20261124_171234,on,1,1,1,cpu_python,control,0.560687,6000000,0.093,2026-11-24T17:13:41
+on_20261124_171234,on,1,1,2,file_stat,kernel-heavy,3.107391,150000,20.716,2026-11-24T17:13:44
+on_20261124_171234,on,1,1,3,process_spawn,kernel-heavy,0.957625,200,4788.123,2026-11-24T17:13:45
+on_20261124_171234,on,1,1,4,cpu_sha256,control,0.965249,8,120656.087,2026-11-24T17:13:46
+on_20261124_171234,on,1,1,5,thread_pingpong,kernel-heavy,0.786910,60000,13.115,2026-11-24T17:13:46
+on_20261124_171234,on,1,1,6,zip_extract,kernel-heavy,2.997682,6000,499.614,2026-11-24T17:13:51
+on_20261124_171234,on,1,1,7,file_create_delete,kernel-heavy,2.587696,9000,287.522,2026-11-24T17:13:53

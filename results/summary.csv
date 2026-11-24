@@ -1,0 +1,8 @@
+workload,group,n_on,n_off,median_on_s,median_off_s,iqr_on_s,iqr_off_s,cv_on_pct,cv_off_pct,slowdown_pct,ci95_low_pct,ci95_high_pct,significant,beyond_noise
+file_create_delete,kernel-heavy,30,15,2.5776,2.5618,0.2613,0.2293,8.5148,7.3551,0.6178,-6.7130,5.1272,no,no
+file_stat,kernel-heavy,30,15,3.3452,3.0809,0.5682,0.0213,8.5801,1.2985,8.5790,-0.2713,17.5665,no,no
+zip_extract,kernel-heavy,30,15,1.9861,2.1840,0.1230,0.2127,9.1699,5.8182,-9.0631,-11.3352,-0.7357,yes,yes
+process_spawn,kernel-heavy,30,15,0.9360,0.9359,0.0271,0.0097,1.7118,0.6701,0.0069,-1.1221,1.2605,no,no
+thread_pingpong,kernel-heavy,30,15,0.7676,0.7641,0.0710,0.1318,8.5107,9.4860,0.4645,-12.8196,5.3708,no,no
+cpu_python,control,30,15,0.5527,0.5607,0.0075,0.0094,1.4718,1.2239,-1.4250,-2.8319,-0.5027,yes,yes
+cpu_sha256,control,30,15,0.9417,0.9533,0.0052,0.0046,0.6940,0.5266,-1.2171,-1.3855,-0.8179,yes,yes
